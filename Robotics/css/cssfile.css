@@ -1,13 +1,13 @@
 #dropdownMenuButton {
     border: 0px solid black;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 211, 17, 0.6) !important;
     background-color: transparent;
-    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Orbitron', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     position: relative;
-    left: -30px;
+    left: -50px;
 }
 
 #dropdownMenuButton:focus {
@@ -15,15 +15,28 @@
 }
 
 #dropdownMenuButton:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 211, 17, 0.9) !important;
     cursor: pointer;
 }
 
-.current {
-    color: rgba(0, 0, 0, .9) !important;
+.navbar {
+    background-color: #000;
+    font-family: 'Orbitron', sans-serif;
 }
 
-.navbar {
-    background-color: #00d311;
-    font-family: 'Orbitron', sans-serif;
+.nav-link {
+    color: rgba(0, 211, 17, 0.6) !important;
+}
+
+.nav-link:hover {
+    color: rgba(0, 211, 17, 0.9) !important;
+}
+
+.current {
+    color: rgba(0, 211, 17, 0.9) !important;
+    font-weight: bold;
+}
+
+.current:hover {
+    color: rgba(0, 211, 17, 1) !important;
 }
