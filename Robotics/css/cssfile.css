@@ -1,3 +1,18 @@
+.logo {
+    width: 154px;
+    height: 79px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.logo:focus {
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: 0 0 0 1px rgba(0, 211, 17, 0.5);
+}
+
 #dropdownMenuButton {
     border: 0px solid black;
     color: rgba(0, 211, 17, 0.6) !important;
@@ -8,15 +23,28 @@
     line-height: 1.5;
     position: relative;
     left: -50px;
+    margin-left: 19px;
 }
 
 #dropdownMenuButton:focus {
-    box-shadow: 0 0 0 0px rgba(204, 204, 204, .5);
+    color: rgba(0, 211, 17, 0.9) !important;
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 #dropdownMenuButton:hover {
     color: rgba(0, 211, 17, 0.9) !important;
     cursor: pointer;
+}
+
+#dropdownMenuButton:active {
+    color: rgba(0, 211, 17, 1) !important;
+}
+
+#dropdownMenuButton[aria-expanded="true"] {
+    color: rgba(0, 211, 17, 0.9) !important;
 }
 
 .navbar {
@@ -32,11 +60,69 @@
     color: rgba(0, 211, 17, 0.9) !important;
 }
 
+.nav-link:focus {
+    color: rgba(0, 211, 17, 0.8) !important;
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.nav-link:active {
+    color: rgba(0, 211, 17, 0.9);
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .current {
-    color: rgba(0, 211, 17, 0.9) !important;
+    color: rgba(0, 211, 17, 0.8) !important;
     font-weight: bold;
 }
 
 .current:hover {
+    color: rgba(0, 211, 17, 0.9) !important;
+}
+
+.current:focus {
+    color: rgba(0, 211, 17, 0.9) !important;
+}
+
+.current:active {
     color: rgba(0, 211, 17, 1) !important;
 }
+
+[aria-labelledby="dropdownMenuButton"] {
+    background-color: #000;
+    /*box-shadow: 0 0 0 1px rgba(0, 211, 17, 1);*/
+}
+
+.dropdown-item {
+    color: rgba(0, 211, 17, 0.6);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 211, 17, 0.6);
+}
+
+.dropdown-item:focus {
+    background-color: rgba(0, 211, 17, 0.8);
+    background-image: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown-item:active {
+    color: #000;
+    background-color: rgba(0, 211, 17, 0.9);
+}
+
+
+/*
+#nav-links {
+    position: relative;
+    top: 45px;
+}
+*/

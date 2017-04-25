@@ -27,7 +27,7 @@
     <link rel=stylesheet type=text/css href="css/cssfile.css">
 
     <!-- Current Page's JS file -->
-    <script src="/js/homepage.js"></script>
+    <script src="js/homepage.js"></script>
 
 </head>
 
@@ -35,15 +35,17 @@
     <input type="hidden" value="" id="currentPage">
     <!-- Navigation bar -->
     <nav class="navbar navbar-fixed-top navbar-light">
-
-        <!-- Logo -->
-        <a href="index.html" class="navbar-brand"><img src="Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
+        <div class="container">
+            <!-- Logo -->
+            <a href="index.html" class="logo"><img src="Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
+        </div>
 
         <!-- Links-->
         <div class="nav navbar-nav container">
-            <div class="row">
-                <a href="index.html" class="nav-link col-sm-2 current">Home</a>
-                <div class="dropdown col-sm-2">
+
+            <div class="row" id="nav-links">
+                <a href="index.html" class="nav-link col-md-2 current">Home</a>
+                <div class="dropdown col-md-2">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">2017 Season</button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="html/build2017.html">Build Season</a>
@@ -53,10 +55,10 @@
                         <a class="dropdown-item" href="html/mistate.html">Michigan State Championship</a>
                     </div>
                 </div>
-                <a href="#" class="nav-link col-sm-2">Season 2016</a>
-                <a href="#" class="nav-link col-sm-2">Our Team</a>
-                <a href="#" class="nav-link col-sm-2">Contact Us</a>
-                <a href="#" class="nav-link col-sm-2">Sponsor Us</a>
+                <a href="#" class="nav-link col-md-2">Season 2016</a>
+                <a href="#" class="nav-link col-md-2">Our Team</a>
+                <a href="#" class="nav-link col-md-2">Contact Us</a>
+                <a href="#" class="nav-link col-md-2">Sponsor Us</a>
             </div>
         </div>
     </nav>
