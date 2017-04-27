@@ -53,11 +53,11 @@
 
 .navbar {
     background-color: #000;
-    font-family: 'Orbitron', sans-serif;
 }
 
 .nav-link {
     color: rgba(0, 211, 17, 0.6) !important;
+    font-family: 'Orbitron', sans-serif;
 }
 
 .nav-link:hover {
@@ -143,4 +143,12 @@
     outline: none;
     -webkit-box-shadow: 0 0 0 2px rgba(0, 211, 17, 0.8);
     box-shadow: 0 0 0 2px rgba(0, 211, 17, 0.8);
+}
+
+.card-block {
+    background-color: #000;
+}
+
+#collapseOne {
+    padding-left: 35px;
 }
