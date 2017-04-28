@@ -26,8 +26,37 @@
 
         <button class="navbar-toggler navbar-toggler-right" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
 
-        <!-- Links-->
         <div class="collapse navbar-collapse" id="nav-collapse">
+            <ul class="navbar-nav mr-auto row" id="nav-container">
+                <li class="nav-item current col-md-2">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown col-md-2">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=true>2017 Season</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="html/build2017.html">Build Season</a>
+                        <a class="dropdown-item" href="html/programming2017.html">Programming</a>
+                        <a class="dropdown-item" href="html/stjoe2017.html">St. Joseph Competition</a>
+                        <a class="dropdown-item" href="html/eastkentwood2017.html">East Kentwood Competition</a>
+                        <a class="dropdown-item" href="html/mistate.html">Michigan State Championship</a>
+                    </div>
+                </li>
+                <li class="nav-item col-md-2">
+                    <a class="nav-link" href="#">Season 2016</a>
+                </li>
+                <li class="nav-item col-md-2">
+                    <a class="nav-link" href="#">Our Team</a>
+                </li>
+                <li class="nav-item col-md-2">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item col-md-2">
+                    <a class="nav-link" href="#">Sponsor Us</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Links-->
+        <!--<div class="collapse navbar-collapse" id="nav-collapse">
             <div class="row mx-auto navbar-nav container" id="nav-links">
                 <a href="index.html" class="nav-link col-md-2 current">Home</a>
                 <div class="dropdown">
@@ -46,65 +75,9 @@
                 <a href="#" class="nav-link">Sponsor Us</a>
             </div>
         </div>
-
+-->
     </nav>
-    <div id="mainMenuContainer" role="tablist" aria-multiselectable="true">
-        <div class="card">
-            <div class="card-header" role="tab" id="mainMenuHeader">
-                <h5 class="mb-0">
-                    <a data-toggle="collapse" id="mainMenuToggle" data-parent="#mainMenuContainer" href="#mainMenu" aria-expanded="false" aria-controls="mainMenu">
-                        Main Menu
-                    </a>
-                </h5>
-            </div>
-            <div class="card-block collapse" id="mainMenu" role="tabpanel" aria-labelledby="mainMenuHeader">
-                <div id="2017MenuContainer" role="tablist" aria-multiselectable="true">
-                    <div class="card">
-                        <div class="card-header" role="tab" id="2017MenuHeader">
-                            <h5 class="mb-0">
-                                <a data-toggle="collapse" id="2017MenuToggle" data-parent="#2017MenuContainer" href="#2017Menu" aria-expanded="false" aria-controls="2017Menu">
-                                    2017 Season
-                                </a>
-                            </h5>
-                        </div>
-                        <div class="card-block collapse" id="2017Menu" role="tabpanel" aria-labelledby="2017MenuHeader">
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--
-<div id="accordion" role="tablist" aria-multiselectable="true">
-    <div class="card">
-        <div class="card-header" role="tab" id="headingOne">
-            <h5 class="mb-0">
-                <a data-toggle="collapse" id="mainDrop" data-parent="#accordion" href="#mainMenu" aria-expanded="false" aria-controls="mainMenu">
-                        2017 Season 
-                    </a>
-            </h5>
-        </div>
-        <div class="card-block collapse" id="mainMenu" role="tabpanel" aria-labelledby="headingOne">
-            <div role="tablist" aria-multiselectable="true" id="mainMenu1">
-                <div class="card">
-                    <div class="card-header" role="tab" id="2017Header">
-                        <h5 class="mb-0">
-                            <a data-toggle="collapse" id="2017Drop" data-parent="#mainMenu1" href="#2017-menu" aria-expanded="false" aria-controls="2017-menu">
-                                2017 Season<span class="fa fa-angle-down"></span>
-                                </a>
-                        </h5>
-                    </div>
-                    <div class="collapse card-block" aria-labelledby="2017Header" role="tabpanel" id="2017-menu">
-                        <div class="container">
-                            <a href="#" class="nav-link">Season 2016</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>-->
 
     <!-- Required for JQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
