@@ -121,10 +121,7 @@
 }
 
 #nav-links {
-    position: relative;
-    top: 0px;
     width: 70%;
-    top: 25px;
 }
 
 #collapse-toggle {
@@ -146,11 +143,42 @@
 #nav-container {
     background-color: #000;
     position: relative;
-    left: -2px;
-    top: 0px;
-    width: 100vw;
+    left: -1px;
 }
 
 li a {
-    width: 100vw;
+    width: 250px;
+}
+
+.lgbreak {
+    width: 80vw !important;
+}
+
+.mdbreak {
+    width: 100vw !important;
+}
+
+.dropdownlgbreak {
+    position: relative;
+    left: -31px;
+}
+
+.ourteamlgbreak {
+    position: relative;
+    left: 40px;
+}
+
+.contactuslgbreak {
+    position: relative;
+    left: 40px;
+}
+
+.sponsoruslgbreak {
+    position: relative;
+    left: 50px;
+}
+
+.season2016lgbreak {
+    position: relative;
+    left: 10px;
 }
