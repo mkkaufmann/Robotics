@@ -35,4 +35,21 @@ $(function () {
     };
     checkSize();
     $(window).resize(checkSize);
+
+    $(window).click(function (e) {
+        var i, hasClass = false;
+        var classNames = e.target.classList;
+        var classNamesLength = classNames.length;
+        for (i = 0; i < classNamesLength; i += 1) {
+            if (classNames[i] === "navbar-part") {
+                hasClass = true;
+                break;
+            }
+        }
+        if (!hasClass) {
+            if ($("#collapse-toggle").attr("aria-expanded") === "true") {
+                $('#nav-collapse').collapse('toggle');
+            }
+        }
+    });
 });

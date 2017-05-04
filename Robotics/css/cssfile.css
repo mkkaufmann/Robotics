@@ -140,6 +140,7 @@ li a {
 
 #dropdown-menu {
     width: 300px;
+    top: 30px;
 }
 
 .lgbreak {
@@ -226,3 +227,5 @@ li a {
     background-color: rgba(0, 211, 17, 1);
     color: rgba(0, 0, 0, 1) !important;
 }
+
+#jumbotron {}

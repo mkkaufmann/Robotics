@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Main CSS File-->
     <link rel=stylesheet type=text/css href="css/cssfile.css">
@@ -20,45 +20,57 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-fixed-top navbar-light navbar-toggleable-md" id="navbar">
+    <nav class="navbar navbar-fixed-top navbar-light navbar-toggleable-md navbar-part" id="navbar">
         <!-- Logo -->
-        <a href="index.html" class="logo navbar-brand"><img src="Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
+        <a href="index.html" class="logo navbar-brand navbar-part"><img src="Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
 
-        <button class="navbar-toggler navbar-toggler-right" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
+        <button class="navbar-toggler navbar-toggler-right navbar-part" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
 
-        <div class="collapse navbar-collapse" id="nav-collapse">
-            <div class="navbar-nav row" id="nav-container">
-                <ul class="navbar-nav row" id="nav-links">
-                    <li class="nav-item col-md-2">
-                        <a class="nav-link current" href="index.html" id="home">Home</a>
+        <div class="collapse navbar-collapse navbar-part" id="nav-collapse">
+            <div class="navbar-nav row navbar-part" id="nav-container">
+                <ul class="navbar-nav row navbar-part" id="nav-links">
+                    <li class="nav-item col-md-2 navbar-part">
+                        <a class="nav-link current navbar-part" href="index.html" id="home">Home</a>
                     </li>
-                    <li class="nav-item dropdown col-md-2" id="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
-                            <a class="dropdown-item" href="html/build2017.html">Build Season</a>
-                            <a class="dropdown-item" href="html/programming2017.html">Programming</a>
-                            <a class="dropdown-item" href="html/stjoe2017.html">St. Joseph Competition</a>
-                            <a class="dropdown-item" href="html/eastkentwood2017.html">East Kentwood Competition</a>
-                            <a class="dropdown-item" href="html/mistate.html">Michigan State Championship</a>
+                    <li class="nav-item dropdown col-md-2 navbar-part" id="dropdown">
+                        <a class="nav-link dropdown-toggle navbar-part" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
+                        <div class="dropdown-menu navbar-part" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
+                            <a class="dropdown-item navbar-part" href="html/build2017.html">Build Season</a>
+                            <a class="dropdown-item navbar-part" href="html/programming2017.html">Programming</a>
+                            <a class="dropdown-item navbar-part" href="html/stjoe2017.html">St. Joseph Competition</a>
+                            <a class="dropdown-item navbar-part" href="html/eastkentwood2017.html">East Kentwood Competition</a>
+                            <a class="dropdown-item navbar-part" href="html/mistate.html">Michigan State Championship</a>
                         </div>
                     </li>
-                    <li class="nav-item col-md-2" id="season2016">
-                        <a class="nav-link" href="html/season2016.html">Season 2016</a>
+                    <li class="nav-item col-md-2 navbar-part" id="season2016">
+                        <a class="nav-link navbar-part" href="html/season2016.html">Season 2016</a>
                     </li>
-                    <li class="nav-item col-md-2" id="ourteam">
-                        <a class="nav-link" href="html/ourteam.html">Our Team</a>
+                    <li class="nav-item col-md-2 navbar-part" id="ourteam">
+                        <a class="nav-link navbar-part" href="html/ourteam.html">Our Team</a>
                     </li>
-                    <li class="nav-item col-md-2" id="contactus">
-                        <a class="nav-link" href="html/contact.html">Contact Us</a>
+                    <li class="nav-item col-md-2 navbar-part" id="contactus">
+                        <a class="nav-link navbar-part" href="html/contact.html">Contact Us</a>
                     </li>
-                    <li class="nav-item col-md-2" id="sponsorus">
-                        <a class="nav-link" href="html/sponsorship.html">Sponsor Us</a>
+                    <li class="nav-item col-md-2 navbar-part" id="sponsorus">
+                        <a class="nav-link navbar-part" href="html/sponsorship.html">Sponsor Us</a>
                     </li>
                 </ul>
             </div>
         </div>
 
     </nav>
+
+    <div class="jumbotron" id="jumbotron">
+        <h1 class="display-3 text-center" id="">Ground Zero 4409</h1>
+        <p class="lead text-center">A FIRST Robotics team that believes that every student should participate.</p>
+        <hr class="my-4">
+        <div class="text-center">
+            <a class="btn btn-primary btn-lg" href="html/ourteam.html" role="button">Learn More</a>
+        </div>
+    </div>
+
+
+
 
 
     <!-- Required for JQuery-->
@@ -72,7 +84,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <!-- Bootstrap JS-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Current Page's JS file -->
     <script src="js/homepage.js"></script>
