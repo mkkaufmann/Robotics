@@ -1,29 +1,82 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Ground Zero 4409 Home</title>
-        
-        <!-- Required for JQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-        
-        <!-- Main JS file-->
-        <script src="../js/main.js"></script>
-        
-        <!-- Tether (required for some Bootstrap features)-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-        
-        <!-- Bootstrap JS-->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-        
-        <!-- Bootstrap CSS-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-        
-        <!-- Main CSS File-->
-        <link rel=stylesheet type=text/css href=../css/cssfile.css>
-        
-    </head>
-    <body>
-        
-    </body>
+
+<head>
+    <title>Ground Zero 4409 Home</title>
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Orbitron Font -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Main CSS File-->
+    <link rel=stylesheet type=text/css href="../css/cssfile.css">
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-fixed-top navbar-light navbar-toggleable-md" id="navbar">
+        <!-- Logo -->
+        <a href="../index.html" class="logo navbar-brand"><img src="../Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
+
+        <button class="navbar-toggler navbar-toggler-right" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+            <div class="navbar-nav row" id="nav-container">
+                <ul class="navbar-nav row" id="nav-links">
+                    <li class="nav-item col-md-2">
+                        <a class="nav-link" href="../index.html" id="home">Home</a>
+                    </li>
+                    <li class="nav-item dropdown col-md-2" id="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
+                            <a class="dropdown-item" href="./build2017.html">Build Season</a>
+                            <a class="dropdown-item" href="./programming2017.html">Programming</a>
+                            <a class="dropdown-item" href="./stjoe2017.html">St. Joseph Competition</a>
+                            <a class="dropdown-item" href="./eastkentwood2017.html">East Kentwood Competition</a>
+                            <a class="dropdown-item" href="./mistate.html">Michigan State Championship</a>
+                        </div>
+                    </li>
+                    <li class="nav-item col-md-2" id="season2016">
+                        <a class="nav-link current" href="./season2016.html">Season 2016</a>
+                    </li>
+                    <li class="nav-item col-md-2" id="ourteam">
+                        <a class="nav-link" href="./ourteam.html">Our Team</a>
+                    </li>
+                    <li class="nav-item col-md-2" id="contactus">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item col-md-2" id="sponsorus">
+                        <a class="nav-link" href="./sponsorship.html">Sponsor Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- Required for JQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <!-- Main JS file-->
+    <script src="../js/main.js"></script>
+
+    <!-- Tether (required for some Bootstrap features)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+
+    <!-- Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Current Page's JS file -->
+    <script src="../js/season2016.js"></script>
+
+</body>
+
 </html>

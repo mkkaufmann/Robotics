@@ -21,6 +21,7 @@ $(function () {
             safeAddClass($("#ourteam"), "ourteamlgbreak");
             safeAddClass($("#contactus"), "contactuslgbreak");
             safeAddClass($("#sponsorus"), "sponsoruslgbreak");
+            safeAddClass($("#home"), "homelgbreak");
         } else {
             safeRemoveClass($("#nav-container"), "lgbreak");
             safeAddClass($("#nav-container"), "mdbreak");
@@ -29,6 +30,7 @@ $(function () {
             safeRemoveClass($("#ourteam"), "ourteamlgbreak");
             safeRemoveClass($("#contactus"), "contactuslgbreak");
             safeRemoveClass($("#sponsorus"), "sponsoruslgbreak");
+            safeRemoveClass($("#home"), "homelgbreak");
         }
     };
     checkSize();
