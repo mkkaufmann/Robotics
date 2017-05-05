@@ -7,7 +7,7 @@
     width: 154px;
     height: 79px;
     position: relative;
-    left: 0px;
+    left: -2px;
     top: 0px;
     padding: 2px;
 }
@@ -145,6 +145,8 @@ li a {
 
 .lgbreak {
     width: 80vw !important;
+    position: relative;
+    left: 20px;
 }
 
 .mdbreak {
@@ -183,7 +185,7 @@ li a {
 
 .homelgbreak {
     position: relative;
-    left: 50px;
+    left: 55px;
     top: 20px;
 }
 
@@ -228,4 +230,27 @@ li a {
     color: rgba(0, 0, 0, 1) !important;
 }
 
-#jumbotron {}
+#jumbotron {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url()
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.jumbotron {
+    /* The image used */
+    background-image: url("img_parallax.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
