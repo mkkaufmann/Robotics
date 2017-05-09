@@ -254,3 +254,25 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#bar-container {
+    position: relative;
+    top: -32px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 200px;
+}
+
+#block1 {
+    height: 200px;
+    background-color: black;
+    border-right: 2px solid rgba(0, 211, 17, 1);
+    width: 50%;
+}
+
+#block2 {
+    height: 200px;
+    background-color: black;
+    border-left: 2px solid rgba(0, 211, 17, 1);
+    width: 50%;
+}
