@@ -231,11 +231,11 @@ li a {
 }
 
 #jumbotron {
-    height: 500px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url()
+    background-image: url();
 }
 
 body,
@@ -245,10 +245,13 @@ html {
 
 .jumbotron {
     /* The image used */
+    
     background-image: url("img_parallax.jpg");
     /* Full height */
+    
     height: 100%;
     /* Create the parallax scrolling effect */
+    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -260,19 +263,26 @@ html {
     top: -32px;
     margin-left: 0;
     margin-right: 0;
-    height: 200px;
+    height: 239px;
+    background-color: black;
 }
 
 #block1 {
-    height: 200px;
+    height: 239px;
     background-color: black;
     border-right: 2px solid rgba(0, 211, 17, 1);
-    width: 50%;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #block2 {
-    height: 200px;
+    height: 239px;
     background-color: black;
     border-left: 2px solid rgba(0, 211, 17, 1);
-    width: 50%;
+    width: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
