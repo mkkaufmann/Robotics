@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <!-- Main CSS File-->
     <link rel=stylesheet type=text/css href="../css/cssfile.css">
@@ -20,45 +20,78 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-fixed-top navbar-light navbar-toggleable-md" id="navbar">
-        <!-- Logo -->
-        <a href="../index.html" class="logo navbar-brand"><img src="../Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
+    <nav class="navbar fixed-top navbar-light navbar-toggleable-md navbar-part" id="navbar">
+        <!-- Logo (Usage Permitted)-->
+        <a href="index.html" class="logo navbar-brand navbar-part"><img src="../Images/logo.svg" id="logo" width="140px" alt="logo"></a>
 
-        <button class="navbar-toggler navbar-toggler-right" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
+        <button class="navbar-toggler navbar-toggler-right navbar-part" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
 
-        <div class="collapse navbar-collapse" id="nav-collapse">
-            <div class="navbar-nav row" id="nav-container">
-                <ul class="navbar-nav row" id="nav-links">
-                    <li class="nav-item col-md-2">
-                        <a class="nav-link" href="../index.html" id="home">Home</a>
+        <div class="collapse navbar-collapse navbar-part" id="nav-collapse">
+            <div class="navbar-nav row navbar-part" id="nav-container">
+                <ul class="navbar-nav row navbar-part" id="nav-links">
+                    <li class="nav-item col-md-2 navbar-part">
+                        <a class="nav-link navbar-part" href="../index.html" id="home">Home</a>
                     </li>
-                    <li class="nav-item dropdown col-md-2" id="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
-                            <a class="dropdown-item dropdown-current" href="./build2017.html">Build Season</a>
-                            <a class="dropdown-item" href="./programming2017.html">Programming</a>
-                            <a class="dropdown-item" href="./stjoe2017.html">St. Joseph Competition</a>
-                            <a class="dropdown-item" href="./eastkentwood2017.html">East Kentwood Competition</a>
-                            <a class="dropdown-item" href="./mistate.html">Michigan State Championship</a>
+                    <li class="nav-item dropdown col-md-2 navbar-part" id="dropdown">
+                        <a class="nav-link dropdown-toggle navbar-part" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
+                        <div class="dropdown-menu navbar-part" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
+                            <a class="dropdown-item navbar-part dropdown-current" href="../html/build2017.html">Build Season</a>
+                            <a class="dropdown-item navbar-part" href="../html/programming2017.html">Programming</a>
+                            <a class="dropdown-item navbar-part" href="../html/stjoe2017.html">St. Joseph Competition</a>
+                            <a class="dropdown-item navbar-part" href="../html/eastkentwood2017.html">East Kentwood Competition</a>
+                            <a class="dropdown-item navbar-part" href="../html/mistate.html">Michigan State Championship</a>
                         </div>
                     </li>
-                    <li class="nav-item col-md-2" id="season2016">
-                        <a class="nav-link" href="./season2016.html">Season 2016</a>
+                    <li class="nav-item col-md-2 navbar-part" id="season2016">
+                        <a class="nav-link navbar-part" href="../html/season2016.html">Season 2016</a>
                     </li>
-                    <li class="nav-item col-md-2" id="ourteam">
-                        <a class="nav-link" href="./ourteam.html">Our Team</a>
+                    <li class="nav-item col-md-2 navbar-part" id="ourteam">
+                        <a class="nav-link navbar-part" href="../html/ourteam.html">Our Team</a>
                     </li>
-                    <li class="nav-item col-md-2" id="contactus">
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    <li class="nav-item col-md-2 navbar-part" id="contactus">
+                        <a class="nav-link navbar-part" href="../html/contact.html">Contact Us</a>
                     </li>
-                    <li class="nav-item col-md-2" id="sponsorus">
-                        <a class="nav-link" href="./sponsorship.html">Sponsor Us</a>
+                    <li class="nav-item col-md-2 navbar-part" id="sponsorus">
+                        <a class="nav-link navbar-part" href="../html/sponsorship.html">Sponsor Us</a>
                     </li>
                 </ul>
             </div>
         </div>
 
     </nav>
+
+    <div class="jumbotron" id="home-jumbotron">
+        <div>
+            <h1 class="display-3 text-center jumbotron-part" id="title">Ground Zero 4409</h1>
+            <p class="lead text-center jumbotron-part" id="label">A FIRST Robotics team that believes that every student should participate.</p>
+            <div class="text-center jumbotron-part" id="button-container">
+                <a class="btn btn-success btn-lg jumbotron-part" href="../html/ourteam.html" role="button" id="button">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="bar-container">
+        <div class="card text-center" id="block1">
+            <img class="card-img" src="" alt="Season 2017 Background Image">
+            <div class="card-img-overlay">
+                <p class="lead card-text" id="Season2017BarText">See what we did during this past season.</p>
+                <a class="btn btn-success btn-lg" href="html/build2017.html" role="button" id="">2017 Season</a>
+            </div>
+        </div>
+        <div class="card text-center" id="block2">
+            <img class="card-img" src="" alt="Season 2016 Background Image">
+            <div class="card-img-overlay">
+                <p class="lead card-text" id="Season2017BarText">See what our team did during FIRST Stronghold.</p>
+                <a class="btn btn-success btn-lg" href="html/season2016.html" role="button" id="">2016 Season</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100" id="copyrightContainer">
+        <p id="copyright">Copyright &copy; 2017 Ground Zero Robotics. All Rights Reserved.</p>
+        <div class="clear"></div>
+        <p id="author">Website by Michael Kaufmann.</p>
+    </div>
+
 
 
     <!-- Required for JQuery-->
@@ -72,11 +105,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <!-- Bootstrap JS-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
     <!-- Current Page's JS file -->
-    <script src="../js/build2017.js"></script>
+    <script src="../js/homepage.js"></script>
 
 </body>
 
 </html>
+

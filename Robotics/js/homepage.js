@@ -11,7 +11,6 @@ $(function () {
 
     function hoverin(element1, element2) {
         if (!disabled) {
-            console.log($("#block1").width());
             element1.stop().clearQueue().animate({
                 width: getWidthPercent(0.7)
             }, 1500);
@@ -53,6 +52,23 @@ $(function () {
         state = "out";
     });
     $("#bar-container").width = $(window).width;
+    $(window).bind("resize", function () {
+        $("#bar-container").width = $(window).width;
+        if (state === "out") {
+            hoverout($("#block1"), $("#block2"));
+        } else if (state === "in1") {
+            hoverin($("#block1"), $("#block2"));
+        } else if (state === "in2") {
+            hoverin($("#block2"), $("#block1"));
+        }
+        if ($(window).width() >= 992) {
+            disabled = false;
+        } else {
+            disabled = false;
+            hoverout($("#block1"), $("#block2"));
+            disabled = true;
+        }
+    });
     $(window).resize(function () {
         $("#bar-container").width = $(window).width;
         if (state === "out") {

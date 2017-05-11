@@ -4,10 +4,10 @@
 }
 
 .logo {
-    width: 154px;
-    height: 79px;
+    width: 90px;
+    height: 88px;
     position: relative;
-    left: -2px;
+    left: 6px;
     top: 0px;
     padding: 2px;
 }
@@ -17,6 +17,12 @@
     outline: none;
     -webkit-box-shadow: 0 0 0 1px rgba(0, 211, 17, 0.5);
     box-shadow: 0 0 0 1px rgba(0, 211, 17, 0.5);
+}
+
+#logo {
+    position: relative;
+    left: -26px;
+    top: -3px;
 }
 
 #dropdownMenuButton {
@@ -108,7 +114,7 @@
 #nav-links {
     width: 70%;
     position: relative;
-    left: 10px;
+    left: 23px;
 }
 
 #collapse-toggle {
@@ -130,7 +136,7 @@
 #nav-container {
     background-color: #000;
     position: relative;
-    left: -1px;
+    left: 20px;
     top: 8px;
 }
 
@@ -230,12 +236,26 @@ li a {
     color: rgba(0, 0, 0, 1) !important;
 }
 
-#jumbotron {
-    height: 650px;
+#home-jumbotron {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url();
+    /* The image used */
+    background-image: url("../Images/homebanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#button {
+    font-family: 'Orbitron', sans-serif;
 }
 
 body,
@@ -243,19 +263,20 @@ html {
     height: 100%;
 }
 
-.jumbotron {
-    /* The image used */
-    
-    background-image: url("img_parallax.jpg");
-    /* Full height */
-    
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#title {
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(0, 211, 17, 1);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+}
+
+#label {
+    font-family: 'Orbitron', sans-serif;
+    color: rgba(0, 211, 17, 1);
+    font-size: 1.5em;
+    font-weight: bold;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 1);
 }
 
 #bar-container {
@@ -272,9 +293,7 @@ html {
     background-color: black;
     border-right: 2px solid rgba(0, 211, 17, 1);
     width: 950px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 0;
 }
 
 #block2 {
@@ -282,7 +301,47 @@ html {
     background-color: black;
     border-left: 2px solid rgba(0, 211, 17, 1);
     width: 950px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 0;
+}
+
+.card-img-overlay {
+    position: relative;
+    top: 5%;
+}
+
+.card-img-overlay p {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.card-img-overlay a {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#copyrightContainer {
+    position: relative;
+    top: -32px;
+    height: 50px;
+    background-color: black;
+    overflow: hidden;
+}
+
+#copyright {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Orbitron', sans-serif;
+    float: right;
+}
+
+#author {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Orbitron', sans-serif;
+    float: right;
+}
+
+.clear {
+    clear: both;
 }
