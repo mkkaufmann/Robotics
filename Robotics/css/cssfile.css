@@ -325,9 +325,8 @@ html {
     border-right: 2px solid rgba(0, 0, 0, 1);
     width: 49%;
     border-radius: 0;
-    /*    background-image: url("../Images/2017SeasonBanner.jpg");*/
+    background-image: url("../Images/2016SeasonBanner.jpg");
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -346,6 +345,7 @@ html {
 
 #card-img-overlay1 p {
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Orbitron', sans-serif;
 }
 
@@ -360,6 +360,7 @@ html {
 
 #card-img-overlay2 p {
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: 'Orbitron', sans-serif;
 }
 
