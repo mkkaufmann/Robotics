@@ -7,7 +7,7 @@
 
 .logo {
     width: 90px;
-    height: 88px;
+    height: 80px;
     position: relative;
     left: 6px;
     top: 0px;
@@ -24,7 +24,7 @@
 #logo {
     position: relative;
     left: -26px;
-    top: -3px;
+    top: -8px;
 }
 
 #dropdownMenuButton {
@@ -138,8 +138,8 @@
 #nav-container {
     background-color: #000;
     position: relative;
-    left: 20px;
-    top: 8px;
+    left: -2px;
+    top: 7px;
 }
 
 li a {
@@ -154,7 +154,7 @@ li a {
 .lgbreak {
     width: 80vw !important;
     position: relative;
-    left: 20px;
+    left: 20px !important;
 }
 
 .mdbreak {
@@ -265,6 +265,150 @@ li a {
     align-items: center;
     /* The image used */
     background-image: url("../Images/Build2017Banner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#contact-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#kentwood2017-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#stjoe2017-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#mistate-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#ourteam-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#programming2017-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#season2016-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
+    /*Permission to use image granted.*/
+    background-color: rgba(0, 211, 17, 0.5);
+    /* Full height */
+    height: 70%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+}
+
+#sponsorship-jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* The image used */
+    background-image: url("../Images/contactbanner.jpg");
     /*Permission to use image granted.*/
     background-color: rgba(0, 211, 17, 0.5);
     /* Full height */

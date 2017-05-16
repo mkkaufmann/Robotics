@@ -2,16 +2,18 @@
 <html>
 
 <head>
-    <title>Ground Zero 4409 Home</title>
+    <title>State Championship</title>
 
     <!-- Font Awesome (Icons) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Orbitron Font -->
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=Ek+Mukta" rel="stylesheet">
+
     <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
     <!-- Main CSS File-->
     <link rel=stylesheet type=text/css href="../css/cssfile.css">
@@ -20,45 +22,63 @@
 
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-fixed-top navbar-light navbar-toggleable-md" id="navbar">
-        <!-- Logo -->
-        <a href="../index.html" class="logo navbar-brand"><img src="../Images/Placeholder.png" id="logo" alt="logo" width="150px" height="75px"></a>
+    <nav class="navbar fixed-top navbar-light navbar-toggleable-md navbar-part" id="navbar">
+        <!-- Logo (Usage Permitted)-->
+        <a href="../index.html" class="logo navbar-brand navbar-part"><img src="../Images/logo.svg" id="logo" width="140px" alt="logo"></a>
 
-        <button class="navbar-toggler navbar-toggler-right" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
+        <button class="navbar-toggler navbar-toggler-right navbar-part" id="collapse-toggle" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-expanded="false" aria-controls="nav-collapse" aria-label="Toggle Navigation"></button>
 
-        <div class="collapse navbar-collapse" id="nav-collapse">
-            <div class="navbar-nav row" id="nav-container">
-                <ul class="navbar-nav row" id="nav-links">
-                    <li class="nav-item col-md-2">
-                        <a class="nav-link" href="../index.html" id="home">Home</a>
+        <div class="collapse navbar-collapse navbar-part" id="nav-collapse">
+            <div class="navbar-nav row navbar-part" id="nav-container">
+                <ul class="navbar-nav row navbar-part" id="nav-links">
+                    <li class="nav-item col-md-2 navbar-part">
+                        <a class="nav-link navbar-part" href="../index.html" id="home">Home</a>
                     </li>
-                    <li class="nav-item dropdown col-md-2" id="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
-                            <a class="dropdown-item" href="./build2017.html">Build Season</a>
-                            <a class="dropdown-item" href="./programming2017.html">Programming</a>
-                            <a class="dropdown-item" href="./stjoe2017.html">St. Joseph Competition</a>
-                            <a class="dropdown-item" href="./eastkentwood2017.html">East Kentwood Competition</a>
-                            <a class="dropdown-item dropdown-current" href="./mistate.html">Michigan State Championship</a>
+                    <li class="nav-item dropdown col-md-2 navbar-part" id="dropdown">
+                        <a class="nav-link dropdown-toggle navbar-part" href="#" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup=false aria-expanded=false>2017 Season</a>
+                        <div class="dropdown-menu navbar-part" aria-labelledby="dropdownMenuButton" id="dropdown-menu">
+                            <a class="dropdown-item navbar-part dropdown-current" href="../html/build2017.html">Build Season</a>
+                            <a class="dropdown-item navbar-part" href="../html/programming2017.html">Programming</a>
+                            <a class="dropdown-item navbar-part" href="../html/stjoe2017.html">St. Joseph Competition</a>
+                            <a class="dropdown-item navbar-part" href="../html/eastkentwood2017.html">East Kentwood Competition</a>
+                            <a class="dropdown-item navbar-part" href="../html/mistate.html">Michigan State Championship</a>
                         </div>
                     </li>
-                    <li class="nav-item col-md-2" id="season2016">
-                        <a class="nav-link" href="./season2016.html">Season 2016</a>
+                    <li class="nav-item col-md-2 navbar-part" id="season2016">
+                        <a class="nav-link navbar-part" href="../html/season2016.html">2016 Season</a>
                     </li>
-                    <li class="nav-item col-md-2" id="ourteam">
-                        <a class="nav-link" href="./ourteam.html">Our Team</a>
+                    <li class="nav-item col-md-2 navbar-part" id="ourteam">
+                        <a class="nav-link navbar-part" href="../html/ourteam.html">Our Team</a>
                     </li>
-                    <li class="nav-item col-md-2" id="contactus">
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    <li class="nav-item col-md-2 navbar-part" id="contactus">
+                        <a class="nav-link navbar-part" href="../html/contact.html">Contact Us</a>
                     </li>
-                    <li class="nav-item col-md-2" id="sponsorus">
-                        <a class="nav-link" href="./sponsorship.html">Sponsor Us</a>
+                    <li class="nav-item col-md-2 navbar-part" id="sponsorus">
+                        <a class="nav-link navbar-part" href="../html/sponsorship.html">Sponsor Us</a>
                     </li>
                 </ul>
             </div>
         </div>
 
     </nav>
+
+    <div class="jumbotron" id="mistate-jumbotron">
+        <div>
+            <h1 class="display-3 text-center jumbotron-part" id="title">Michigan State Championship</h1>
+            <p class="lead text-center jumbotron-part" id="label">"Just a battery problem."</p>
+        </div>
+    </div>
+
+    <div id="article-container">
+        <p class="container" id="article">Spicy jalapeno bacon ipsum dolor amet andouille sirloin labore, doner venison salami bresaola kielbasa nulla qui tail short loin laborum shoulder. Eu sint sed rump velit elit. Nisi tri-tip pancetta adipisicing leberkas proident. Sint leberkas lorem et pig reprehenderit shoulder elit spare ribs, capicola velit quis esse sed. Tenderloin minim enim, consectetur cupim salami bresaola short ribs filet mignon. Est minim nulla dolore voluptate t-bone. Pig enim consectetur, cow est meatloaf aliqua. Elit dolor alcatra anim pig. Short ribs reprehenderit aliqua boudin hamburger ribeye turkey meatloaf labore ground round aute culpa sirloin. Prosciutto magna turkey, fatback kevin andouille swine picanha flank drumstick turducken laborum. Pork belly occaecat ad deserunt salami magna. Pork dolore mollit fugiat pig. Ut occaecat pork short ribs. Sint meatloaf occaecat boudin, labore non pig velit qui kielbasa irure. Magna venison in eiusmod, ham pork chop culpa short loin ut prosciutto. Boudin pastrami fatback ham. Pastrami voluptate est veniam, laboris brisket turducken. Bresaola pariatur elit, aliqua ut id mollit occaecat sirloin veniam aute sed do. Doner rump pork chop kielbasa bacon pork loin porchetta et filet mignon laborum ball tip quis shank nostrud. Short loin pork belly filet mignon, doner nisi duis rump kevin ullamco ball tip corned beef strip steak boudin. Aute tongue velit magna, andouille do venison. Dolore venison pork drumstick ham, sirloin pork belly dolor eiusmod est brisket voluptate filet mignon. Alcatra do doner ullamco. Deserunt porchetta venison andouille ground round filet mignon et duis ullamco flank corned beef aliquip in tri-tip brisket. Proident cow salami, venison burgdoggen tri-tip turducken non cupidatat tail shoulder aliqua doner. Culpa sausage dolore picanha ea esse tempor bacon deserunt in ribeye meatloaf pariatur short loin non. Nulla pariatur cillum corned beef ribeye. Occaecat flank pork, short ribs tongue shankle ut pariatur ipsum fatback est swine chuck jowl. Labore ut picanha porchetta, drumstick duis beef ut et deserunt. Voluptate beef ribs exercitation swine meatball officia brisket pork magna picanha ea eiusmod. Chuck ribeye ut burgdoggen, officia nostrud sausage non doner do tempor bresaola reprehenderit. Qui chicken sint anim. Ham hock chuck sint in tempor shank minim ham reprehenderit swine beef ribs lorem in velit ground round. Tail tongue magna, minim incididunt est doner do ex capicola ut tenderloin biltong. Sed t-bone turducken ribeye capicola, tenderloin et ullamco. Duis enim fatback shoulder drumstick, reprehenderit anim ut. Ham kielbasa filet mignon turducken nostrud ham hock enim pariatur in. Est culpa occaecat id, jerky consectetur kielbasa brisket short loin. Aliqua aute dolor anim ex adipisicing consequat sirloin laboris excepteur mollit. Doner officia t-bone aute beef ribs dolore, ut minim anim hamburger capicola cupidatat. Beef ribs sed drumstick, alcatra adipisicing spare ribs leberkas cupim irure in. Spare ribs cillum nostrud sint tail duis tenderloin non dolore esse shankle qui. Mollit pancetta in ham hock velit burgdoggen, fatback beef ribs prosciutto. Sunt pastrami cupidatat velit tail ham hock, officia corned beef alcatra fugiat tenderloin. Bacon quis sirloin turkey enim minim in exercitation andouille nulla eiusmod. Laborum do culpa, enim jerky landjaeger dolore consequat chicken venison consectetur. Meatloaf kielbasa consectetur quis. Magna consectetur ground round ball tip fugiat nulla exercitation quis laborum minim id. Bacon eiusmod non reprehenderit dolore. Quis prosciutto short ribs non, chuck est spare ribs aliquip. Eu meatball in enim brisket leberkas fatback meatloaf. Pork loin hamburger dolore meatloaf laboris nisi ground round spare ribs landjaeger elit veniam anim ex. Cillum eiusmod exercitation labore, beef enim biltong pork belly culpa chuck ham hock in cupidatat incididunt. Id nisi beef reprehenderit jowl deserunt burgdoggen chuck ullamco incididunt biltong dolore. Pastrami meatloaf irure proident magna chicken kevin pancetta aute officia exercitation bresaola sunt veniam.</p>
+    </div>
+
+    <div class="w-100" id="copyrightContainer">
+        <p id="copyright">Copyright &copy; 2017 Michael Kaufmann. All Rights Reserved.</p>
+        <div class="clear"></div>
+        <p id="author">A 4409 Team Member.</p>
+    </div>
+
 
 
     <!-- Required for JQuery-->
@@ -72,10 +92,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <!-- Bootstrap JS-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
-    <!-- Current Page's JS file -->
-    <script src="../js/mistate.js"></script>
 
 </body>
 

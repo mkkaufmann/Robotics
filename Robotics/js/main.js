@@ -13,7 +13,7 @@ $(function () {
         }
     };
     var checkSize = function () {
-        if ($(window).width() >= 992) {
+        if ($(window).width() >= 975) {
             safeRemoveClass($("#nav-container"), "mdbreak");
             safeAddClass($("#nav-container"), "lgbreak");
             safeAddClass($("#dropdown"), "dropdownlgbreak");
