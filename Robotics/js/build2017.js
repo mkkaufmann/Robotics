@@ -2,5 +2,4 @@
 /*global $, jQuery, alert*/
 $(function () {
     "use strict";
-    
 });
