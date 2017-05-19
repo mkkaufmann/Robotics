@@ -584,7 +584,7 @@ html {
 /*Carousel*/
 
 #carousel {
-    height: 500px;
+    height: 400px;
     width: 500px;
     margin: 20px;
 }
@@ -593,4 +593,20 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.carousel-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+    margin: auto;
+    width: 40%;
 }
