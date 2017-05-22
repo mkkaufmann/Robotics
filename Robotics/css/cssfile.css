@@ -282,7 +282,7 @@ li a {
     justify-content: center;
     align-items: center;
     /* The image used */
-    background-image: url("../Images/contactbanner.jpg");
+    background-image: url("../Images/contactbanner.jpeg");
     /*Permission to use image granted.*/
     background-color: rgba(0, 211, 17, 0.5);
     /* Full height */
@@ -354,7 +354,7 @@ li a {
     justify-content: center;
     align-items: center;
     /* The image used */
-    background-image: url("../Images/contactbanner.jpg");
+    background-image: url("../Images/ourteambanner.jpg");
     /*Permission to use image granted.*/
     background-color: rgba(0, 211, 17, 0.5);
     /* Full height */
@@ -390,7 +390,7 @@ li a {
     justify-content: center;
     align-items: center;
     /* The image used */
-    background-image: url("../Images/contactbanner.jpg");
+    background-image: url("../Images/2016banner.jpg");
     /*Permission to use image granted.*/
     background-color: rgba(0, 211, 17, 0.5);
     /* Full height */
@@ -408,7 +408,7 @@ li a {
     justify-content: center;
     align-items: center;
     /* The image used */
-    background-image: url("../Images/contactbanner.jpg");
+    background-image: url("../Images/sponsorbanner.jpg");
     /*Permission to use image granted.*/
     background-color: rgba(0, 211, 17, 0.5);
     /* Full height */
@@ -609,4 +609,10 @@ html {
     display: block;
     margin: auto;
     width: 40%;
+}
+
+.carousel-caption {
+    position: relative;
+    top: 5px;
+    left: 0px;
 }
